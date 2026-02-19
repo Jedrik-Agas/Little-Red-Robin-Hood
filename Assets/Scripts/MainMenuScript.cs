@@ -9,4 +9,9 @@ public class MainMenuScript : MonoBehaviour
     {
         SceneManager.LoadScene("Visual Novel Scenes");
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }

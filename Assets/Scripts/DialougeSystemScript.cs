@@ -2,6 +2,7 @@ using TMPro;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class DialougeSystemScript : MonoBehaviour
 {
 
@@ -17,8 +18,9 @@ public class DialougeSystemScript : MonoBehaviour
         [Range(1f, 25f)]
         public float TextSpeed;
 
-        [Range(0f, 1f)]
+        [Range(0,1)]
         public int PortraitType;
+
     }
 
     [SerializeField] private DialougeSegment[] segments;
@@ -28,9 +30,14 @@ public class DialougeSystemScript : MonoBehaviour
     [SerializeField] private Image TextBox;
     [SerializeField] private RawImage Character1;
     [SerializeField] private RawImage Character2;
+    [SerializeField] private RawImage Background;
+    [SerializeField] private Button NextButton;
 
-    public Texture[] PlayerTexture = new Texture[2];
-    public Texture[] CompanionTexture = new Texture[2];
+    public Texture[] PlayerTexture = new Texture[0];
+    public Texture[] CompanionTexture = new Texture[0];
+    public Texture[] BackgroundTexture = new Texture[0];
+
+    public string NextLevel;
 
     private int DialougeIndex;
     private bool PlayingDialouge;
@@ -42,6 +49,7 @@ public class DialougeSystemScript : MonoBehaviour
         NameText.enabled = true;
         DialougeText.enabled = true;
         TextBox.enabled = true;
+        NextButton.enabled = true;
         Character1.enabled = true;
         Character2.enabled = true;
         StartCoroutine(PlayDialouge(segments[DialougeIndex]));
@@ -49,28 +57,29 @@ public class DialougeSystemScript : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+
+    }
+
+    public void NextLine()
+    {
+        if (DialougeIndex == segments.Length)
         {
-            if (DialougeIndex == segments.Length)
+            Character1.enabled = false;
+            Character2.enabled = false;
+            enabled = false;
+            SceneManager.LoadScene(NextLevel);
+            return;
+
+        }
+        if (!PlayingDialouge)
+        {
+            StartCoroutine(PlayDialouge(segments[DialougeIndex]));
+        }
+        else
+        {
+            if (segments[DialougeIndex].Skippable)
             {
-                NameText.enabled = false;
-                DialougeText.enabled = false;
-                TextBox.enabled = false;
-                Character1.enabled = false;
-                Character2.enabled = false;
-                enabled = false;
-                return;
-            }
-            if (!PlayingDialouge)
-            {
-                StartCoroutine(PlayDialouge(segments[DialougeIndex]));
-            }
-            else
-            {
-                if (segments[DialougeIndex].Skippable)
-                {
-                    Skip = true;
-                }
+                Skip = true;
             }
         }
     }
@@ -85,20 +94,24 @@ public class DialougeSystemScript : MonoBehaviour
         switch (segment.TextName)
         {
             case "Riding Hood":
-                print("Red");
                 Character1.texture = PlayerTexture[segment.PortraitType];
+                Character1.color = new Color(255f, 255f, 255f, 255f);
+                Character2.color = new Color(255f, 255f, 255f, 0.5f);
                 break;
             case "Robin Hood":
-                print("Green");
                 Character2.texture = CompanionTexture[segment.PortraitType];
+                Character1.color = new Color(255f, 255f, 255f, 0.5f);
+                Character2.color = new Color(255f, 255f, 255f, 255f);
                 break;
-            case "Match Girl":
-                print("Dying");
-                Character1.texture = PlayerTexture[segment.PortraitType];
-
+            case "Narrarator":
+                Background.texture = BackgroundTexture[segment.PortraitType];
+                Character1.color = new Color(255f, 255f, 255f, 0f);
+                Character2.color = new Color(255f, 255f, 255f, 0);
                 break;
             default:
-
+                Character1.color = new Color(255f, 255f, 255f, 0f);
+                Character2.color = new Color(255f, 255f, 255f, 0);
+                Background.texture = BackgroundTexture[segment.PortraitType];
                 break;
         }
 
