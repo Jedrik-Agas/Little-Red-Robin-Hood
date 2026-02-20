@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2018431283631442052}
   - component: {fileID: 7811665526604372122}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105,6 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdef8c398067d9844a1b86827bb48d8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletScript
+  DropArrow: {fileID: 6591126797959175876, guid: fd1ee0644d5e4694c953afd996406765, type: 3}
 --- !u!50 &2018431283631442052
 Rigidbody2D:
   serializedVersion: 5
