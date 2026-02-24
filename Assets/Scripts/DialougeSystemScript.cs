@@ -13,7 +13,11 @@ public class DialougeSystemScript : MonoBehaviour
 
         [TextArea]
         public string DialougeToType;
+
         public bool Skippable;
+
+        [Range(0, 3)]
+        public int NovelState;
 
         [Range(1f, 25f)]
         public float TextSpeed;
@@ -91,26 +95,26 @@ public class DialougeSystemScript : MonoBehaviour
         DialougeText.SetText(string.Empty);
         NameText.SetText(segment.TextName);
 
-        switch (segment.TextName)
+        switch (segment.NovelState)
         {
-            case "Riding Hood":
+            case 1:
                 Character1.texture = PlayerTexture[segment.PortraitType];
                 Character1.color = new Color(255f, 255f, 255f, 255f);
                 Character2.color = new Color(255f, 255f, 255f, 0.5f);
                 break;
-            case "Robin Hood":
+            case 2:
                 Character2.texture = CompanionTexture[segment.PortraitType];
                 Character1.color = new Color(255f, 255f, 255f, 0.5f);
                 Character2.color = new Color(255f, 255f, 255f, 255f);
                 break;
-            case "Narrarator":
+            case 3:
                 Background.texture = BackgroundTexture[segment.PortraitType];
-                Character1.color = new Color(255f, 255f, 255f, 0f);
-                Character2.color = new Color(255f, 255f, 255f, 0);
+                Character1.color = new Color(255f, 255f, 255f, 0.5f);
+                Character2.color = new Color(255f, 255f, 255f, 0.5f);
                 break;
             default:
                 Character1.color = new Color(255f, 255f, 255f, 0f);
-                Character2.color = new Color(255f, 255f, 255f, 0);
+                Character2.color = new Color(255f, 255f, 255f, 0f);
                 Background.texture = BackgroundTexture[segment.PortraitType];
                 break;
         }

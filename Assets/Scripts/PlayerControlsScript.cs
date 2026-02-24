@@ -1,13 +1,19 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerControlsScript : MonoBehaviour
 {
-    private float MoveSpeed = 8f;
+    private float MoveSpeed = 6f;
     private float BowCharge = 0f;
+    private float MaxBowCharge = 1.5f;
+    private bool BowCharged = false;
     private bool HasArrow = true;
     private Rigidbody2D RB;
     public BowScript Bow;
+
+    [SerializeField] private Slider Slider;
 
     private Vector2 MoveDirection;
     private Vector2 MouseDirection;
@@ -26,14 +32,29 @@ public class PlayerControlsScript : MonoBehaviour
 
         if(Input.GetMouseButton(1) && HasArrow == true)
         {
-            BowCharge = BowCharge + Time.deltaTime;
-            print(BowCharge);
+            if(BowCharged == false)
+            {
+                BowCharge = BowCharge + Time.deltaTime;
+                Slider.value = BowCharge;
+            }
+            if (BowCharge >= MaxBowCharge)
+            {
+                BowCharged = true;
+            }
         }
-        if (Input.GetMouseButton(0) && BowCharge > 1.5f)
+        if (Input.GetMouseButtonUp(1) && BowCharged == false)
+        {
+            BowCharge = 0f;
+            Slider.value = BowCharge;
+        }
+
+        if (Input.GetMouseButton(0) && BowCharged == true)
         {
             Bow.Fire();
             BowCharge = 0f;
             HasArrow = false;
+            BowCharged = false;
+            Slider.value = BowCharge;
         }
     }
 
@@ -54,6 +75,10 @@ public class PlayerControlsScript : MonoBehaviour
         {
             HasArrow = true;
             Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.tag == "Finish")
+        {
+            SceneManager.LoadScene("Main Menu");
         }
     }
 }

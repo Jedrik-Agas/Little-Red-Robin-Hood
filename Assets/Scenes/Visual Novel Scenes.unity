@@ -350,31 +350,37 @@ MonoBehaviour:
   - TextName: 
     DialougeToType: 
     Skippable: 1
+    NovelState: 0
     TextSpeed: 25
     PortraitType: 0
   - TextName: Riding Hood
     DialougeToType: I am child.
     Skippable: 1
+    NovelState: 1
     TextSpeed: 25
     PortraitType: 0
   - TextName: Robin Hood
     DialougeToType: Kill Yourself LMAO!
     Skippable: 1
+    NovelState: 2
     TextSpeed: 25
     PortraitType: 0
   - TextName: Riding Hood
     DialougeToType: '*Dies'
     Skippable: 1
+    NovelState: 1
     TextSpeed: 25
     PortraitType: 1
   - TextName: Robin Hood
     DialougeToType: Bitchn'
     Skippable: 1
+    NovelState: 2
     TextSpeed: 25
     PortraitType: 1
   - TextName: Narrarator
     DialougeToType: Then he bled to death. THE END.
     Skippable: 1
+    NovelState: 0
     TextSpeed: 10
     PortraitType: 1
   NameText: {fileID: 2139121065}
@@ -393,7 +399,7 @@ MonoBehaviour:
   BackgroundTexture:
   - {fileID: 2800000, guid: 82561dfa73f03714298516bd1b3a4a3e, type: 3}
   - {fileID: 2800000, guid: f9824c83394768a4797166737ab087eb, type: 3}
-  NextLevel: Main Menu
+  NextLevel: GAMEPLAYTEST
 --- !u!1 &573454336
 GameObject:
   m_ObjectHideFlags: 0
