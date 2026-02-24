@@ -14,6 +14,7 @@ public class PlayerControlsScript : MonoBehaviour
     public BowScript Bow;
 
     [SerializeField] private Slider Slider;
+    [SerializeField] private GameObject MainSprite;
 
     private Vector2 MoveDirection;
     private Vector2 MouseDirection;
@@ -29,6 +30,7 @@ public class PlayerControlsScript : MonoBehaviour
     {
         RB.linearVelocity = MoveDirection * MoveSpeed;
         MouseDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        MainSprite.transform.position = RB.transform.position;
 
         if(Input.GetMouseButton(1) && HasArrow == true)
         {
@@ -42,10 +44,11 @@ public class PlayerControlsScript : MonoBehaviour
                 BowCharged = true;
             }
         }
-        if (Input.GetMouseButtonUp(1) && BowCharged == false)
+        if (Input.GetMouseButtonUp(1))
         {
             BowCharge = 0f;
             Slider.value = BowCharge;
+            BowCharged = false;
         }
 
         if (Input.GetMouseButton(0) && BowCharged == true)

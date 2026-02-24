@@ -7,7 +7,7 @@ public class BulletScript : MonoBehaviour
 
     void Update()
     {
-        if (BTime > 3f)
+        if (BTime > 1.5f)
         {
             Destroy(gameObject);
             BTime = 0f;
@@ -23,5 +23,9 @@ public class BulletScript : MonoBehaviour
     {
         Destroy(gameObject);
         Instantiate(DropArrow, transform.position, transform.rotation);
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Destroy(collision.gameObject);
+        }
     }
 }

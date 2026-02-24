@@ -5,7 +5,6 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class DialougeSystemScript : MonoBehaviour
 {
-
     [System.Serializable]
     public class DialougeSegment
     {
@@ -16,13 +15,14 @@ public class DialougeSystemScript : MonoBehaviour
 
         public bool Skippable;
 
+        public bool HasBackground;
+
         [Range(0, 3)]
         public int NovelState;
 
         [Range(1f, 25f)]
         public float TextSpeed;
 
-        [Range(0,1)]
         public int PortraitType;
 
     }
@@ -59,11 +59,6 @@ public class DialougeSystemScript : MonoBehaviour
         StartCoroutine(PlayDialouge(segments[DialougeIndex]));
     }
 
-    void Update()
-    {
-
-    }
-
     public void NextLine()
     {
         if (DialougeIndex == segments.Length)
@@ -95,29 +90,38 @@ public class DialougeSystemScript : MonoBehaviour
         DialougeText.SetText(string.Empty);
         NameText.SetText(segment.TextName);
 
-        switch (segment.NovelState)
+        if (segment.HasBackground)
         {
-            case 1:
-                Character1.texture = PlayerTexture[segment.PortraitType];
-                Character1.color = new Color(255f, 255f, 255f, 255f);
-                Character2.color = new Color(255f, 255f, 255f, 0.5f);
-                break;
-            case 2:
-                Character2.texture = CompanionTexture[segment.PortraitType];
-                Character1.color = new Color(255f, 255f, 255f, 0.5f);
-                Character2.color = new Color(255f, 255f, 255f, 255f);
-                break;
-            case 3:
-                Background.texture = BackgroundTexture[segment.PortraitType];
-                Character1.color = new Color(255f, 255f, 255f, 0.5f);
-                Character2.color = new Color(255f, 255f, 255f, 0.5f);
-                break;
-            default:
-                Character1.color = new Color(255f, 255f, 255f, 0f);
-                Character2.color = new Color(255f, 255f, 255f, 0f);
-                Background.texture = BackgroundTexture[segment.PortraitType];
-                break;
+            Background.color = new Color(255f, 255f, 255f, 255f);
         }
+        else
+        {
+            Background.color = new Color(255f, 255f, 255f, 0f);
+        }
+
+        switch (segment.NovelState)
+            {
+                case 1:
+                    Character1.texture = PlayerTexture[segment.PortraitType];
+                    Character1.color = new Color(255f, 255f, 255f, 255f);
+                    Character2.color = new Color(255f, 255f, 255f, 0.5f);
+                    break;
+                case 2:
+                    Character2.texture = CompanionTexture[segment.PortraitType];
+                    Character1.color = new Color(255f, 255f, 255f, 0.5f);
+                    Character2.color = new Color(255f, 255f, 255f, 255f);
+                    break;
+                case 3:
+                    Background.texture = BackgroundTexture[segment.PortraitType];
+                    Character1.color = new Color(255f, 255f, 255f, 0.5f);
+                    Character2.color = new Color(255f, 255f, 255f, 0.5f);
+                    break;
+                default:
+                    Character1.color = new Color(255f, 255f, 255f, 0f);
+                    Character2.color = new Color(255f, 255f, 255f, 0f);
+                    Background.texture = BackgroundTexture[segment.PortraitType];
+                    break;
+            }
 
         float delay = 1f / segment.TextSpeed;
 
