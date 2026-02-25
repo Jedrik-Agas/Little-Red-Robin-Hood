@@ -17,7 +17,7 @@ public class DialougeSystemScript : MonoBehaviour
 
         public bool HasBackground;
 
-        [Range(0, 3)]
+        [Range(0, 5)]
         public int NovelState;
 
         [Range(1f, 25f)]
@@ -42,20 +42,18 @@ public class DialougeSystemScript : MonoBehaviour
     public Texture[] BackgroundTexture = new Texture[0];
 
     public string NextLevel;
+    [SerializeField] private CanvasGroup CanvasGroup;
 
     private int DialougeIndex;
     private bool PlayingDialouge;
     private bool Skip;
+    public bool EndDialouge = false;
 
     void Start()
     {
-        enabled = true;
-        NameText.enabled = true;
-        DialougeText.enabled = true;
-        TextBox.enabled = true;
-        NextButton.enabled = true;
-        Character1.enabled = true;
-        Character2.enabled = true;
+        CanvasGroup.alpha = 1.0f;
+        CanvasGroup.interactable = true;
+        CanvasGroup.blocksRaycasts = true;
         StartCoroutine(PlayDialouge(segments[DialougeIndex]));
     }
 
@@ -63,12 +61,11 @@ public class DialougeSystemScript : MonoBehaviour
     {
         if (DialougeIndex == segments.Length)
         {
-            Character1.enabled = false;
-            Character2.enabled = false;
-            enabled = false;
-            SceneManager.LoadScene(NextLevel);
+            CanvasGroup.alpha = 0f;
+            CanvasGroup.interactable = false;
+            CanvasGroup.blocksRaycasts = false;
+            EndDialouge = true;
             return;
-
         }
         if (!PlayingDialouge)
         {
@@ -104,22 +101,32 @@ public class DialougeSystemScript : MonoBehaviour
                 case 1:
                     Character1.texture = PlayerTexture[segment.PortraitType];
                     Character1.color = new Color(255f, 255f, 255f, 255f);
-                    Character2.color = new Color(255f, 255f, 255f, 0.5f);
+                    Character2.color = new Color(255f, 255f, 255f, 0);
                     break;
                 case 2:
+                    Character2.texture = CompanionTexture[segment.PortraitType];
+                    Character1.color = new Color(255f, 255f, 255f, 0f);
+                    Character2.color = new Color(255f, 255f, 255f, 255f);
+                    break;
+                case 3:
+                    Character1.texture = PlayerTexture[segment.PortraitType];
+                    Character1.color = new Color(255f, 255f, 255f, 255f);
+                    Character2.color = new Color(255f, 255f, 255f, 0.5f);
+                    break;
+                case 4:
                     Character2.texture = CompanionTexture[segment.PortraitType];
                     Character1.color = new Color(255f, 255f, 255f, 0.5f);
                     Character2.color = new Color(255f, 255f, 255f, 255f);
                     break;
-                case 3:
+                case 5:
                     Background.texture = BackgroundTexture[segment.PortraitType];
                     Character1.color = new Color(255f, 255f, 255f, 0.5f);
                     Character2.color = new Color(255f, 255f, 255f, 0.5f);
                     break;
                 default:
+                    Background.texture = BackgroundTexture[segment.PortraitType];
                     Character1.color = new Color(255f, 255f, 255f, 0f);
                     Character2.color = new Color(255f, 255f, 255f, 0f);
-                    Background.texture = BackgroundTexture[segment.PortraitType];
                     break;
             }
 

@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerControlsScript : MonoBehaviour
@@ -78,10 +77,6 @@ public class PlayerControlsScript : MonoBehaviour
         {
             HasArrow = true;
             Destroy(collision.gameObject);
-        }
-        if (collision.gameObject.tag == "Finish")
-        {
-            SceneManager.LoadScene("Main Menu");
         }
     }
 }

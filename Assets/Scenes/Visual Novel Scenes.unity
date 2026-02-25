@@ -119,6 +119,52 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &307174435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 307174437}
+  - component: {fileID: 307174436}
+  m_Layer: 0
+  m_Name: DialougeChecker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &307174436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307174435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26181e4213781ae48a0b757a5bcdb254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialougeCheckerScript
+  DialougeSystemScript: {fileID: 375290467}
+  LevelLoaderScript: {fileID: 810433566}
+--- !u!4 &307174437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307174435}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 840.64465, y: 479.50952, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &368139977
 GameObject:
   m_ObjectHideFlags: 0
@@ -365,14 +411,14 @@ MonoBehaviour:
     DialougeToType: Kill Yourself LMAO!
     Skippable: 1
     HasBackground: 1
-    NovelState: 2
+    NovelState: 4
     TextSpeed: 25
     PortraitType: 0
   - TextName: Riding Hood
     DialougeToType: '*Dies'
     Skippable: 1
     HasBackground: 1
-    NovelState: 1
+    NovelState: 3
     TextSpeed: 25
     PortraitType: 1
   - TextName: Robin Hood
@@ -384,10 +430,10 @@ MonoBehaviour:
     PortraitType: 1
   - TextName: Narrarator
     DialougeToType: Then he bled to death. THE END.
-    Skippable: 1
+    Skippable: 0
     HasBackground: 1
     NovelState: 0
-    TextSpeed: 10
+    TextSpeed: 10.5
     PortraitType: 1
   NameText: {fileID: 2139121065}
   DialougeText: {fileID: 368139979}
@@ -405,7 +451,9 @@ MonoBehaviour:
   BackgroundTexture:
   - {fileID: 2800000, guid: 82561dfa73f03714298516bd1b3a4a3e, type: 3}
   - {fileID: 2800000, guid: f9824c83394768a4797166737ab087eb, type: 3}
-  NextLevel: GAMEPLAYTEST
+  NextLevel: Main Menu
+  CanvasGroup: {fileID: 1566448647}
+  EndDialouge: 0
 --- !u!1 &573454336
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,7 +491,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 0.54901963, g: 0, b: 0.1254902, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -615,6 +663,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 600142727}
   m_CullTransparentMesh: 1
+--- !u!114 &810433566 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3776672047055022613, guid: e4798be76a37a0f45afffc559e07d210, type: 3}
+  m_PrefabInstance: {fileID: 4471008257689142458}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc5a9fa6c569b00439dd57c47666a671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelLoaderScript
 --- !u!1 &1218190028
 GameObject:
   m_ObjectHideFlags: 0
@@ -783,10 +842,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1566448646}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.5947, y: -0.000022888}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1535254037
 MonoBehaviour:
@@ -835,6 +894,7 @@ GameObject:
   - component: {fileID: 1566448645}
   - component: {fileID: 1566448644}
   - component: {fileID: 1566448643}
+  - component: {fileID: 1566448647}
   m_Layer: 5
   m_Name: Dialouge Canvas
   m_TagString: Untagged
@@ -871,10 +931,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -928,6 +988,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!225 &1566448647
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566448642}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1672093105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,10 +1420,77 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139121063}
   m_CullTransparentMesh: 1
+--- !u!1001 &4471008257689142458
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 718395894330492904, guid: e4798be76a37a0f45afffc559e07d210, type: 3}
+      propertyPath: m_Name
+      value: LevelLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 2795064291308393438, guid: e4798be76a37a0f45afffc559e07d210, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2795064291308393438, guid: e4798be76a37a0f45afffc559e07d210, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2795064291308393438, guid: e4798be76a37a0f45afffc559e07d210, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2795064291308393438, guid: e4798be76a37a0f45afffc559e07d210, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2795064291308393438, guid: e4798be76a37a0f45afffc559e07d210, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2795064291308393438, guid: e4798be76a37a0f45afffc559e07d210, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2795064291308393438, guid: e4798be76a37a0f45afffc559e07d210, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2795064291308393438, guid: e4798be76a37a0f45afffc559e07d210, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2795064291308393438, guid: e4798be76a37a0f45afffc559e07d210, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2795064291308393438, guid: e4798be76a37a0f45afffc559e07d210, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3776672047055022613, guid: e4798be76a37a0f45afffc559e07d210, type: 3}
+      propertyPath: NextLevelName
+      value: Main Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 3776672047055022613, guid: e4798be76a37a0f45afffc559e07d210, type: 3}
+      propertyPath: TransitionTime
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4798be76a37a0f45afffc559e07d210, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 573454339}
+  - {fileID: 4471008257689142458}
   - {fileID: 1566448646}
   - {fileID: 1771498854}
+  - {fileID: 307174437}

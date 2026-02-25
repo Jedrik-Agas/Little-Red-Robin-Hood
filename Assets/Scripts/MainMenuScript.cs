@@ -3,11 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-
+    [SerializeField] LevelLoaderScript levelLoaderScript;
     public void StartGame()
     {
-        SceneManager.LoadScene("Visual Novel Scenes");
+        levelLoaderScript.TimeToGo = true;
     }
 
     public void Quit()
