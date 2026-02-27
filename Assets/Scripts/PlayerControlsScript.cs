@@ -9,10 +9,12 @@ public class PlayerControlsScript : MonoBehaviour
     private float MaxBowCharge = 1.5f;
     private bool BowCharged = false;
     private bool HasArrow = true;
+    public bool CanPlay = true;
     private Rigidbody2D RB;
     public BowScript Bow;
 
     [SerializeField] private Slider Slider;
+    [SerializeField] private CanvasGroup CanvasGroup;
     [SerializeField] private GameObject MainSprite;
 
     private Vector2 MoveDirection;
@@ -26,49 +28,57 @@ public class PlayerControlsScript : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        RB.linearVelocity = MoveDirection * MoveSpeed;
-        MouseDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        MainSprite.transform.position = RB.transform.position;
-
-        if(Input.GetMouseButton(1) && HasArrow == true)
+    {   
+        if (CanPlay == true)
         {
-            if(BowCharged == false)
+            RB.linearVelocity = MoveDirection * MoveSpeed;
+
+            if (Input.GetMouseButton(1) && HasArrow == true)
             {
-                BowCharge = BowCharge + Time.deltaTime;
+                if (BowCharged == false)
+                {
+                    BowCharge = BowCharge + Time.deltaTime;
+                    Slider.value = BowCharge;
+                }
+                if (BowCharge >= MaxBowCharge)
+                {
+                    BowCharged = true;
+                }
+            }
+            if (Input.GetMouseButtonUp(1))
+            {
+                BowCharge = 0f;
                 Slider.value = BowCharge;
+                BowCharged = false;
             }
-            if (BowCharge >= MaxBowCharge)
-            {
-                BowCharged = true;
-            }
-        }
-        if (Input.GetMouseButtonUp(1))
-        {
-            BowCharge = 0f;
-            Slider.value = BowCharge;
-            BowCharged = false;
-        }
 
-        if (Input.GetMouseButton(0) && BowCharged == true)
-        {
-            Bow.Fire();
-            BowCharge = 0f;
-            HasArrow = false;
-            BowCharged = false;
-            Slider.value = BowCharge;
+            if (Input.GetMouseButton(0) && BowCharged == true)
+            {
+                Bow.Fire();
+                BowCharge = 0f;
+                HasArrow = false;
+                BowCharged = false;
+                Slider.value = BowCharge;
+                CanvasGroup.alpha = 0f;
+            }
         }
+            MouseDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            MainSprite.transform.position = RB.transform.position;
+
     }
 
     public void OnMove(InputValue Value)
     {
-        MoveDirection = Value.Get<Vector2>().normalized;
+            MoveDirection = Value.Get<Vector2>().normalized;
     }
     private void FixedUpdate()
     {
-        Vector2 Aim = MouseDirection - RB.position;
-        float Angle = Mathf.Atan2(Aim.y, Aim.x) * Mathf.Rad2Deg - 90f;
-        RB.rotation = Angle;
+        if (CanPlay == true)
+        {
+            Vector2 Aim = MouseDirection - RB.position;
+            float Angle = Mathf.Atan2(Aim.y, Aim.x) * Mathf.Rad2Deg - 90f;
+            RB.rotation = Angle;
+        }
     }
 
     public void OnCollisionEnter2D(Collision2D collision)
@@ -76,6 +86,7 @@ public class PlayerControlsScript : MonoBehaviour
         if (collision.gameObject.tag == "Arrow")
         {
             HasArrow = true;
+            CanvasGroup.alpha = 1f;
             Destroy(collision.gameObject);
         }
     }

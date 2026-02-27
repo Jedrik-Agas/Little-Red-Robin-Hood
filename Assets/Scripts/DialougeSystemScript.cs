@@ -36,21 +36,22 @@ public class DialougeSystemScript : MonoBehaviour
     [SerializeField] private RawImage Character2;
     [SerializeField] private RawImage Background;
     [SerializeField] private Button NextButton;
+    [SerializeField] private CanvasGroup CanvasGroup;
 
     public Texture[] PlayerTexture = new Texture[0];
     public Texture[] CompanionTexture = new Texture[0];
     public Texture[] BackgroundTexture = new Texture[0];
 
-    public string NextLevel;
-    [SerializeField] private CanvasGroup CanvasGroup;
+  
 
     private int DialougeIndex;
     private bool PlayingDialouge;
     private bool Skip;
     public bool EndDialouge = false;
 
-    void Start()
+    public void BeginDialouge()
     {
+        EndDialouge = false;
         CanvasGroup.alpha = 1.0f;
         CanvasGroup.interactable = true;
         CanvasGroup.blocksRaycasts = true;
