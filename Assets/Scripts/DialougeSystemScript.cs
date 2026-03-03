@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
 public class DialougeSystemScript : MonoBehaviour
 {
     [System.Serializable]
@@ -29,14 +30,15 @@ public class DialougeSystemScript : MonoBehaviour
 
     [SerializeField] private DialougeSegment[] segments;
     [Space]
-    [SerializeField] private TMP_Text NameText;
-    [SerializeField] private TMP_Text DialougeText;
-    [SerializeField] private Image TextBox;
+    //[SerializeField] private Canvas DialougeCanvas;
+    [SerializeField] private RawImage Background;
     [SerializeField] private RawImage Character1;
     [SerializeField] private RawImage Character2;
-    [SerializeField] private RawImage Background;
+    [SerializeField] private Image TextBox;
+    [SerializeField] private TMP_Text NameText;
+    [SerializeField] private TMP_Text DialougeText;
     [SerializeField] private Button NextButton;
-    [SerializeField] private CanvasGroup CanvasGroup;
+    [SerializeField]private CanvasGroup CanvasGroup;
 
     public Texture[] PlayerTexture = new Texture[0];
     public Texture[] CompanionTexture = new Texture[0];
@@ -49,6 +51,17 @@ public class DialougeSystemScript : MonoBehaviour
     private bool Skip;
     public bool EndDialouge = false;
 
+    private void Start()
+    {
+        //NameText = DialougeCanvas.transform.Find("NameText").GetComponent<TMP_Text>();
+        //DialougeText = DialougeCanvas.transform.Find("DialougeText").GetComponent<TMP_Text>();
+        //TextBox = DialougeCanvas.transform.Find("TextBox").GetComponent<Image>();
+        //Character1 = DialougeCanvas.transform.Find("Character1").GetComponent<RawImage>();
+        //Character2 = DialougeCanvas.transform.Find("Character2").GetComponent<RawImage>();
+        //Background = DialougeCanvas.transform.Find("Background").GetComponent<RawImage>();
+        //NextButton = DialougeCanvas.transform.Find("NextButton").GetComponent<Button>();
+        //CanvasGroup = DialougeCanvas.GetComponent<CanvasGroup>();
+    }
     public void BeginDialouge()
     {
         EndDialouge = false;

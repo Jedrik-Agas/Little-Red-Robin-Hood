@@ -744,7 +744,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3776672047055022613, guid: e4798be76a37a0f45afffc559e07d210, type: 3}
       propertyPath: NextLevelName
-      value: Visual Novel Scenes
+      value: Opening Scene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
