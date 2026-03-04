@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 using Unity.VisualScripting;
 public class DialougeSystemScript : MonoBehaviour
 {
+    // Sreialized class to add text and change state of novel assets
     [System.Serializable]
     public class DialougeSegment
     {
@@ -112,37 +113,44 @@ public class DialougeSystemScript : MonoBehaviour
 
         switch (segment.NovelState)
             {
-                case 1:
+                case 1: //Character 1 visible, Character 2 Invisible
                     Character1.texture = PlayerTexture[segment.PortraitType];
                     Character1.color = new Color(255f, 255f, 255f, 255f);
                     Character2.color = new Color(255f, 255f, 255f, 0);
                     break;
-                case 2:
-                    Character2.texture = CompanionTexture[segment.PortraitType];
+                case 2: //Character 2 visible, Character 1 Invisible
+                Character2.texture = CompanionTexture[segment.PortraitType];
                     Character1.color = new Color(255f, 255f, 255f, 0f);
                     Character2.color = new Color(255f, 255f, 255f, 255f);
                     break;
-                case 3:
-                    Character1.texture = PlayerTexture[segment.PortraitType];
+                case 3: //Character 1 visible, Character 2 transparent
+                Character1.texture = PlayerTexture[segment.PortraitType];
                     Character1.color = new Color(255f, 255f, 255f, 255f);
                     Character2.color = new Color(255f, 255f, 255f, 0.5f);
                     break;
-                case 4:
-                    Character2.texture = CompanionTexture[segment.PortraitType];
+                case 4: //Character 2 visible, Character 1 transparent
+                Character2.texture = CompanionTexture[segment.PortraitType];
                     Character1.color = new Color(255f, 255f, 255f, 0.5f);
                     Character2.color = new Color(255f, 255f, 255f, 255f);
                     break;
-                case 5:
+                case 5: //Both Characters Visible
+                    Background.texture = BackgroundTexture[segment.PortraitType];
+                    Character1.color = new Color(255f, 255f, 255f, 255f);
+                    Character2.color = new Color(255f, 255f, 255f, 255f);
+                    break;
+                case 6: //Both Characters transparent
                     Background.texture = BackgroundTexture[segment.PortraitType];
                     Character1.color = new Color(255f, 255f, 255f, 0.5f);
                     Character2.color = new Color(255f, 255f, 255f, 0.5f);
                     break;
-                default:
+                default: //Both characters Invisible
                     Background.texture = BackgroundTexture[segment.PortraitType];
                     Character1.color = new Color(255f, 255f, 255f, 0f);
                     Character2.color = new Color(255f, 255f, 255f, 0f);
                     break;
             }
+
+        //Text Typer for Dialouge
 
         float delay = 1f / segment.TextSpeed;
 
