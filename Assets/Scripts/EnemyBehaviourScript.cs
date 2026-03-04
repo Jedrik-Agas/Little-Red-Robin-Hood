@@ -1,39 +1,37 @@
 using UnityEngine;
+using UnityEngine.VFX;
 
 public class EnemyBehaviourScript : MonoBehaviour
 {
 
-    private float Speed = 2f;
-    private bool SeesPlayer = false; 
+    private Rigidbody2D RB;
     private GameObject Target;
+    [SerializeField] private Transform FieldOfViewPrefab;
+    private FieldOfViewScript FieldOfViewScript;
 
     void Start()
     {
+        RB = GetComponent<Rigidbody2D>();
         Target = GameObject.FindGameObjectWithTag("Player");
+        FieldOfViewScript = Instantiate(FieldOfViewPrefab,null).GetComponent<FieldOfViewScript>();
     }
 
     void Update()
     {
-        if (SeesPlayer)
+        FieldOfViewScript.SetOrigin(RB.transform.position);
+        FieldOfViewScript.SetAimDirection(RB.transform.forward);
+        Vector2 TargetDirection = Target.transform.position - RB.transform.position;
+        if (Vector3.Distance(RB.transform.position, Target.transform.position) < FieldOfViewScript.ViewDistance)
         {
-            transform.position = Vector2.MoveTowards(transform.position, Target.transform.position, Speed * Time.deltaTime);
+            //if (Vector3.Angle(RB.transform.forward, TargetDirection) < FieldOfViewScript.FOV / 2f)
+            {
+                print("DETECTED");
+            }
         }
     }
 
     private void FixedUpdate()
     {
-        RaycastHit2D Ray = Physics2D.Raycast(transform.position, Target.transform.position - transform.position);
-        if (Ray.collider != null)
-        {
-            SeesPlayer = Ray.collider.gameObject.CompareTag("Player");
-            if(SeesPlayer)
-            {
-                Debug.DrawRay(transform.position, Target.transform.position - transform.position, Color.green);
-            }
-            else
-            {
-                Debug.DrawRay(transform.position, Target.transform.position - transform.position, Color.red);
-            }
-        }
+
     }
 }
