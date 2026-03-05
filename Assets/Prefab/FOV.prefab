@@ -50,9 +50,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a546b71e93841b641a8b45ed226becdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FieldOfViewScript
+  FOV: 0
+  ViewDistance: 5
   LayerMask:
     serializedVersion: 2
     m_Bits: 1
+  LevelLoaderScript: {fileID: 0}
 --- !u!33 &6260681813670516696
 MeshFilter:
   m_ObjectHideFlags: 0

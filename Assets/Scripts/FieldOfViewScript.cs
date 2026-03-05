@@ -9,17 +9,24 @@ public class FieldOfViewScript : MonoBehaviour
     private Mesh mesh;
     private Vector3 OriginPoint;
     private float StartingAngle;
+    private GameObject Viewer;
     public float FOV;
-    public float ViewDistance = 5f;
+    public float ViewDistance = 7f;
+    private LevelLoaderScript LevelLoaderScript;
     [SerializeField] private LayerMask LayerMask;
+    
     void Start()
     {
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
         OriginPoint = Vector3.zero;
+        LevelLoaderScript = GameObject.FindGameObjectWithTag("Respawn").GetComponent<LevelLoaderScript>();
     }
 
-
+    public void SetViewer(GameObject viewer)
+    {
+        Viewer = viewer;
+    }
     public void SetOrigin(Vector3 origin)
     {
        this.OriginPoint = origin;
@@ -63,8 +70,8 @@ public class FieldOfViewScript : MonoBehaviour
 
         //Draws a triangle / sets points of triangle
         Verticies[0] = OriginPoint;
-        Verticies[1] = new Vector3(5, 0);
-        Verticies[2] = new Vector3(0, -5);
+        Verticies[1] = new Vector3(7, 0);
+        Verticies[2] = new Vector3(0, -7);
 
         //sets triangles to draw a cone
         int VertexIndex = 1;
@@ -80,6 +87,12 @@ public class FieldOfViewScript : MonoBehaviour
             else
             {
                 Vertex = RaycastHit.point;
+                if(RaycastHit.collider.tag == "Player")
+                {
+                    //LevelLoaderScript.NextLevelName = "Stealth Section";
+                    //LevelLoaderScript.TimeToGo = true;
+                    print("DETECTED");
+                }
             }
             Verticies[VertexIndex] = Vertex;
 
@@ -95,6 +108,10 @@ public class FieldOfViewScript : MonoBehaviour
             VertexIndex++;
 
             Angle -= AngleIncrease;
+            if (Viewer == null)
+            {
+                Destroy(gameObject);
+            }
         }
 
         //sets look for mesh

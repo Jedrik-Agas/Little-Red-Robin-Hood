@@ -20,14 +20,15 @@ public class EnemyBehaviourScript : MonoBehaviour
     {
         FieldOfViewScript.SetOrigin(RB.transform.position);
         FieldOfViewScript.SetAimDirection(RB.transform.forward);
-        Vector2 TargetDirection = Target.transform.position - RB.transform.position;
-        if (Vector3.Distance(RB.transform.position, Target.transform.position) < FieldOfViewScript.ViewDistance)
-        {
-            //if (Vector3.Angle(RB.transform.forward, TargetDirection) < FieldOfViewScript.FOV / 2f)
-            {
-                print("DETECTED");
-            }
-        }
+        FieldOfViewScript.SetViewer(gameObject);
+        //Vector2 TargetDirection = Target.transform.position - RB.transform.position;
+        //if (Vector3.Distance(RB.transform.position, Target.transform.position) < FieldOfViewScript.ViewDistance)
+        //{
+        //    if (Vector3.Angle(RB.transform.forward, TargetDirection) < FieldOfViewScript.FOV)
+        //    {
+        //        print("DETECTED");
+        //    }
+        //}
     }
 
     private void FixedUpdate()

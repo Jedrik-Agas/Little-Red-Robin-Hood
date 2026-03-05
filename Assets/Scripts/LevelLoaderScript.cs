@@ -13,7 +13,10 @@ public class LevelLoaderScript : MonoBehaviour
 
     public bool TimeToGo = false;
 
-
+    private void Start()
+    {
+        TimeToGo = false;
+    }
     void Update()
     {
         if (TimeToGo == true)
@@ -30,5 +33,4 @@ public class LevelLoaderScript : MonoBehaviour
 
         SceneManager.LoadScene(NextLevelName);
     }
-
 }
