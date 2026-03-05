@@ -10,11 +10,13 @@ public class FieldOfViewScript : MonoBehaviour
     private Vector3 OriginPoint;
     private float StartingAngle;
     private GameObject Viewer;
+    static bool PlayerDetected = false;
     public float FOV;
     public float ViewDistance = 7f;
     private LevelLoaderScript LevelLoaderScript;
     [SerializeField] private LayerMask LayerMask;
-    
+
+
     void Start()
     {
         mesh = new Mesh();
@@ -87,12 +89,14 @@ public class FieldOfViewScript : MonoBehaviour
             else
             {
                 Vertex = RaycastHit.point;
-                if(RaycastHit.collider.tag == "Player")
-                {
-                    //LevelLoaderScript.NextLevelName = "Stealth Section";
-                    //LevelLoaderScript.TimeToGo = true;
-                    print("DETECTED");
-                }
+                //if(!PlayerDetected && RaycastHit.collider.CompareTag("Player"))
+                //{
+                //    PlayerDetected = true;
+                //    print(PlayerDetected);
+                //    LevelLoaderScript.NextLevelName = "Stealth Section";
+                //    LevelLoaderScript.TimeToGo = true;
+                //    print("DETECTED");
+                //}
             }
             Verticies[VertexIndex] = Vertex;
 
