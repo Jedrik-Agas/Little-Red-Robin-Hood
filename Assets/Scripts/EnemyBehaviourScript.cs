@@ -22,16 +22,16 @@ public class EnemyBehaviourScript : MonoBehaviour
         FieldOfViewScript.SetOrigin(RB.transform.position);
         FieldOfViewScript.SetAimDirection(RB.transform.up);
         FieldOfViewScript.SetViewer(gameObject);
-        Vector2 TargetDirection = Target.transform.position - RB.transform.position;
-        if (Vector3.Distance(RB.transform.position, Target.transform.position) < FieldOfViewScript.ViewDistance)
-        {
-            float angle = Vector2.Angle(-RB.transform.up, TargetDirection);
-            if (angle <= FieldOfViewScript.FOV/2)
-            {
-                LevelLoaderScript.NextLevelName = "Stealth Section";
-                LevelLoaderScript.TimeToGo = true;
-                print("DETECTED");
-            }
-        }
+        //Vector2 TargetDirection = Target.transform.position - RB.transform.position;
+        //if (Vector3.Distance(RB.transform.position, Target.transform.position) < FieldOfViewScript.ViewDistance)
+        //{
+        //    float angle = Vector2.Angle(-RB.transform.up, TargetDirection);
+        //    if (angle <= FieldOfViewScript.FOV/2)
+        //    {
+        //        LevelLoaderScript.NextLevelName = "Stealth Section";
+        //        LevelLoaderScript.TimeToGo = true;
+        //        print("DETECTED");
+        //    }
+        //}
     }
 }

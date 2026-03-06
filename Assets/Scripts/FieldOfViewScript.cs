@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using Unity.VisualScripting;
 using UnityEditor.Analytics;
 using UnityEngine;
 using UnityEngine.Diagnostics;
@@ -9,8 +10,9 @@ public class FieldOfViewScript : MonoBehaviour
     private Mesh mesh;
     private Vector3 OriginPoint;
     private float StartingAngle;
+    private float DetectionLevel;
     private GameObject Viewer;
-    static bool PlayerDetected = false;
+    //private bool PlayerDetected = false;
     public float FOV;
     public float ViewDistance = 7f;
     private LevelLoaderScript LevelLoaderScript;
@@ -89,15 +91,18 @@ public class FieldOfViewScript : MonoBehaviour
             else
             {
                 Vertex = RaycastHit.point;
-                //if(!PlayerDetected && RaycastHit.collider.CompareTag("Player"))
-                //{
-                //    PlayerDetected = true;
-                //    print(PlayerDetected);
-                //    LevelLoaderScript.NextLevelName = "Stealth Section";
-                //    LevelLoaderScript.TimeToGo = true;
-                //    print("DETECTED");
-                //}
+                if (RaycastHit.collider.CompareTag("Player"))
+                {
+                    //PlayerDetected = true;
+                    //print(PlayerDetected);
+                    //LevelLoaderScript.NextLevelName = "Stealth Section";
+                    //LevelLoaderScript.TimeToGo = true;
+                    DetectionLevel++;
+                    print(DetectionLevel);
+                    return;
+                }
             }
+                
             Verticies[VertexIndex] = Vertex;
 
             if(i > 0)
@@ -115,6 +120,12 @@ public class FieldOfViewScript : MonoBehaviour
             if (Viewer == null)
             {
                 Destroy(gameObject);
+            }
+
+            if (DetectionLevel >= 10)
+            {
+                LevelLoaderScript.NextLevelName = "Stealth Section";
+                LevelLoaderScript.TimeToGo = true;
             }
         }
 
