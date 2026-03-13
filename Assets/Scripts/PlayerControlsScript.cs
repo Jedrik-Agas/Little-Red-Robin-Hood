@@ -64,6 +64,7 @@ public class PlayerControlsScript : MonoBehaviour
         }
             MouseDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             MainSprite.transform.position = RB.transform.position;
+            MainSprite.transform.rotation = Quaternion.identity; ;
 
     }
 

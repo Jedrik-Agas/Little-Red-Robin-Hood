@@ -45,8 +45,8 @@ public class DialougeSystemScript : MonoBehaviour
     public Texture[] CompanionTexture = new Texture[0];
     public Texture[] BackgroundTexture = new Texture[0];
 
-  
 
+    //private TMP_Text ButtonText;
     private int DialougeIndex;
     private bool PlayingDialouge;
     private bool Skip;
@@ -62,6 +62,7 @@ public class DialougeSystemScript : MonoBehaviour
         //Background = DialougeCanvas.transform.Find("Background").GetComponent<RawImage>();
         //NextButton = DialougeCanvas.transform.Find("NextButton").GetComponent<Button>();
         //CanvasGroup = DialougeCanvas.GetComponent<CanvasGroup>();
+        //ButtonText = NextButton.GetComponent<TMP_Text>();
     }
     public void BeginDialouge()
     {
@@ -91,6 +92,7 @@ public class DialougeSystemScript : MonoBehaviour
             if (segments[DialougeIndex].Skippable)
             {
                 Skip = true;
+                //ButtonText.SetText("Next");
             }
         }
     }

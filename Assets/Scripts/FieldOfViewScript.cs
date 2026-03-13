@@ -126,6 +126,7 @@ public class FieldOfViewScript : MonoBehaviour
             {
                 LevelLoaderScript.NextLevelName = "Stealth Section";
                 LevelLoaderScript.TimeToGo = true;
+                Destroy(gameObject);
             }
         }
 

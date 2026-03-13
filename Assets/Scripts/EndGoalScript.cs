@@ -26,6 +26,7 @@ public class EndGoalScript : MonoBehaviour
 
     private IEnumerator ShowGoal()
     {
+        yield return new WaitForSeconds(0.1f);
         virtualCamera.Priority = 2;
         yield return new WaitForSeconds(3f);
         virtualCamera.Priority = 0;

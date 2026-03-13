@@ -12,6 +12,7 @@ public class EnemyBehaviourScript : MonoBehaviour
     [SerializeField] private Transform[] PatrolPoints;
     [SerializeField] private LevelLoaderScript LevelLoaderScript;
     [SerializeField] private Transform FieldOfViewPrefab;
+    [SerializeField] private GameObject MainSprite;
     private FieldOfViewScript FieldOfViewScript;
 
     void Start()
@@ -28,6 +29,8 @@ public class EnemyBehaviourScript : MonoBehaviour
         FieldOfViewScript.SetOrigin(RB.transform.position);
         FieldOfViewScript.SetAimDirection(RB.transform.up);
         FieldOfViewScript.SetViewer(gameObject);
+        MainSprite.transform.position = RB.transform.position;
+        MainSprite.transform.rotation = Quaternion.identity; ;
 
         if (RB.transform.position == PatrolPoints[TargetPoint].transform.position)
         {
