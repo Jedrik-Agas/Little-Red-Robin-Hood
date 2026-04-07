@@ -212,24 +212,36 @@ PrefabInstance:
       objectReference: {fileID: 2000152532}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.size
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: PlayerTexture.Array.size
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: CompanionTexture.Array.size
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'PlayerTexture.Array.data[0]'
       value: 
-      objectReference: {fileID: 2800000, guid: 1e370d333628a394582b2234a727a569, type: 3}
+      objectReference: {fileID: 2800000, guid: 520bc14536e37f44a8f5f213d88f5b1c, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'PlayerTexture.Array.data[1]'
       value: 
-      objectReference: {fileID: 2800000, guid: 68f1c00f496b2124d89366322b2b3193, type: 3}
+      objectReference: {fileID: 2800000, guid: a2fe7b92fc112c54cab231432f6d651f, type: 3}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: 'PlayerTexture.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2800000, guid: c88e7940e823289409e2ab2812d0770f, type: 3}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: 'PlayerTexture.Array.data[3]'
+      value: 
+      objectReference: {fileID: 2800000, guid: 8639b6d5557b84840b7dff050b24b5c9, type: 3}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: 'PlayerTexture.Array.data[4]'
+      value: 
+      objectReference: {fileID: 2800000, guid: 8d055b923c7c4e64e89f9967153fedd0, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: BackgroundTexture.Array.size
       value: 2
@@ -237,11 +249,23 @@ PrefabInstance:
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'CompanionTexture.Array.data[0]'
       value: 
-      objectReference: {fileID: 2800000, guid: bb7ae748966c61e4f851ece622b97f4d, type: 3}
+      objectReference: {fileID: 2800000, guid: 520bc14536e37f44a8f5f213d88f5b1c, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'CompanionTexture.Array.data[1]'
       value: 
-      objectReference: {fileID: 2800000, guid: ee14dbe04b550914b97501c08253cad1, type: 3}
+      objectReference: {fileID: 2800000, guid: a2fe7b92fc112c54cab231432f6d651f, type: 3}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: 'CompanionTexture.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2800000, guid: c88e7940e823289409e2ab2812d0770f, type: 3}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: 'CompanionTexture.Array.data[3]'
+      value: 
+      objectReference: {fileID: 2800000, guid: 8639b6d5557b84840b7dff050b24b5c9, type: 3}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: 'CompanionTexture.Array.data[4]'
+      value: 
+      objectReference: {fileID: 2800000, guid: 8d055b923c7c4e64e89f9967153fedd0, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'BackgroundTexture.Array.data[0]'
       value: 
@@ -249,7 +273,7 @@ PrefabInstance:
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'BackgroundTexture.Array.data[1]'
       value: 
-      objectReference: {fileID: 2800000, guid: f9824c83394768a4797166737ab087eb, type: 3}
+      objectReference: {fileID: 2800000, guid: 7cb1dbcfee301f540a3113c1e0beadd7, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[0].TextName
       value: Narratator
@@ -272,7 +296,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[5].TextName
-      value: Narrarator
+      value: Red Riding Hood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[6].TextName
+      value: The Huntsman
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[7].TextName
+      value: Red Riding Hood
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[0].Skippable
@@ -288,7 +320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[1].TextSpeed
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[2].Skippable
@@ -316,11 +348,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[5].Skippable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[5].TextSpeed
-      value: 10
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[6].Skippable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[6].TextSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[7].Skippable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[7].TextSpeed
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[1].NovelState
@@ -340,7 +388,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[5].NovelState
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[6].NovelState
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[7].NovelState
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[0].PortraitType
@@ -356,7 +412,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[5].PortraitType
-      value: 1
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[6].PortraitType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[7].PortraitType
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[0].HasBackground
@@ -380,6 +444,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[5].HasBackground
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[6].HasBackground
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[7].HasBackground
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
@@ -407,9 +479,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[5].DialougeToType
-      value: 'Then he bled to death.
-
-        THE END.'
+      value: Oh, how frightened I was! It was so dark inside!  Oh, thank You Sir!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[6].DialougeToType
+      value: No Problem. A scream like yours would have a whole town running!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[7].DialougeToType
+      value: I thought I realized too late when that decietful wolf almost swallowed
+        me whole!
       objectReference: {fileID: 0}
     - target: {fileID: 5513434127003781097, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: LevelLoaderScript
@@ -472,7 +551,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.54901963, g: 0, b: 0.1254902, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
