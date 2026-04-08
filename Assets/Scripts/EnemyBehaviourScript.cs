@@ -7,6 +7,7 @@ public class EnemyBehaviourScript : MonoBehaviour
     private Rigidbody2D RB;
     private GameObject Target;
     public float ESpeed;
+    public float BeginingRotation; 
     public float[] ERotation;
     private int TargetPoint;
     [SerializeField] private Transform[] PatrolPoints;
@@ -21,6 +22,7 @@ public class EnemyBehaviourScript : MonoBehaviour
         Target = GameObject.FindGameObjectWithTag("Player");
         //CurrentPoint = PointA.transform;
         TargetPoint = 0;
+        RB.transform.Rotate(0, 0,BeginingRotation);
         FieldOfViewScript = Instantiate(FieldOfViewPrefab,null).GetComponent<FieldOfViewScript>();
     }
 
@@ -49,5 +51,6 @@ public class EnemyBehaviourScript : MonoBehaviour
             TargetPoint = 0;
         }
         RB.transform.Rotate(0, 0, ERotation[TargetPoint]);
+        
     }
 }
