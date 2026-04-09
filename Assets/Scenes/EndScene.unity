@@ -212,7 +212,7 @@ PrefabInstance:
       objectReference: {fileID: 2000152532}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: PlayerTexture.Array.size
@@ -245,7 +245,7 @@ PrefabInstance:
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'BackgroundTexture.Array.data[0]'
       value: 
-      objectReference: {fileID: 2800000, guid: 82561dfa73f03714298516bd1b3a4a3e, type: 3}
+      objectReference: {fileID: 2800000, guid: e9f432ad8100f5247819c8240ba2797f, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'BackgroundTexture.Array.data[1]'
       value: 
@@ -272,6 +272,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[5].TextName
+      value: Narrarator
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[6].TextName
       value: Narrarator
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
@@ -323,6 +327,14 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[6].Skippable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[6].TextSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[1].NovelState
       value: 1
       objectReference: {fileID: 0}
@@ -355,6 +367,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[6].PortraitType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[0].HasBackground
       value: 1
       objectReference: {fileID: 0}
@@ -376,6 +392,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[5].HasBackground
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[6].HasBackground
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
@@ -403,6 +423,10 @@ PrefabInstance:
       value: 'Then he bled to death.
 
         THE END.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[6].DialougeToType
+      value: Thank for play!
       objectReference: {fileID: 0}
     - target: {fileID: 5513434127003781097, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: LevelLoaderScript
@@ -903,5 +927,5 @@ SceneRoots:
   - {fileID: 573454339}
   - {fileID: 4471008257689142458}
   - {fileID: 1425381911}
-  - {fileID: 1771498854}
   - {fileID: 323259254}
+  - {fileID: 1771498854}

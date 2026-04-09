@@ -245,11 +245,11 @@ PrefabInstance:
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'BackgroundTexture.Array.data[0]'
       value: 
-      objectReference: {fileID: 2800000, guid: 82561dfa73f03714298516bd1b3a4a3e, type: 3}
+      objectReference: {fileID: 2800000, guid: 7cb1dbcfee301f540a3113c1e0beadd7, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'BackgroundTexture.Array.data[1]'
       value: 
-      objectReference: {fileID: 2800000, guid: f9824c83394768a4797166737ab087eb, type: 3}
+      objectReference: {fileID: 2800000, guid: e9f432ad8100f5247819c8240ba2797f, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[0].TextName
       value: Narrarator
@@ -347,6 +347,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[0].PortraitType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[2].PortraitType
       value: 0
       objectReference: {fileID: 0}
@@ -392,7 +396,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[1].DialougeToType
-      value: You now know hot to shoot a bow
+      value: You now know how to shoot a bow
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[2].DialougeToType
@@ -473,7 +477,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.54901963, g: 0, b: 0.1254902, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -909,7 +913,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 573454339}
+  - {fileID: 1771498854}
   - {fileID: 4471008257689142458}
   - {fileID: 1425381911}
-  - {fileID: 1771498854}
   - {fileID: 323259254}

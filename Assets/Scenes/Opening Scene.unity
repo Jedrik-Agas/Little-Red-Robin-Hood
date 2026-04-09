@@ -1092,7 +1092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[35].PortraitType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[36].PortraitType
