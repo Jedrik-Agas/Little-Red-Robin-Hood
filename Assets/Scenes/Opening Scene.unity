@@ -1059,6 +1059,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[26].PortraitType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[27].PortraitType
       value: 3
       objectReference: {fileID: 0}
@@ -1773,6 +1777,18 @@ PrefabInstance:
     - target: {fileID: 3752272264252464036, guid: 6ade9dab19e69c943ab89200c7adae21, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: NextLine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4158297081549143513, guid: 6ade9dab19e69c943ab89200c7adae21, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4158297081549143513, guid: 6ade9dab19e69c943ab89200c7adae21, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4158297081549143513, guid: 6ade9dab19e69c943ab89200c7adae21, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4578405384937722413, guid: 6ade9dab19e69c943ab89200c7adae21, type: 3}
       propertyPath: m_Name

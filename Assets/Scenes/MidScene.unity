@@ -225,7 +225,7 @@ PrefabInstance:
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'PlayerTexture.Array.data[0]'
       value: 
-      objectReference: {fileID: 2800000, guid: 1e370d333628a394582b2234a727a569, type: 3}
+      objectReference: {fileID: 2800000, guid: 34bc4fb61acaf9241a3a86c30cc55850, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'PlayerTexture.Array.data[1]'
       value: 
@@ -237,11 +237,11 @@ PrefabInstance:
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'CompanionTexture.Array.data[0]'
       value: 
-      objectReference: {fileID: 2800000, guid: bb7ae748966c61e4f851ece622b97f4d, type: 3}
+      objectReference: {fileID: 2800000, guid: 36d29db86f0fe834d8b00280843a2a41, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'CompanionTexture.Array.data[1]'
       value: 
-      objectReference: {fileID: 2800000, guid: ee14dbe04b550914b97501c08253cad1, type: 3}
+      objectReference: {fileID: 2800000, guid: 36d29db86f0fe834d8b00280843a2a41, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'BackgroundTexture.Array.data[0]'
       value: 
