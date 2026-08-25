@@ -34,6 +34,8 @@ public class EnemyBehaviourScript : MonoBehaviour
         MainSprite.transform.position = RB.transform.position;
         MainSprite.transform.rotation = Quaternion.identity; ;
 
+        if (PatrolPoints.Length == 0) return;
+
         if (RB.transform.position == PatrolPoints[TargetPoint].transform.position)
         {
             IncreaseTargetInt();
