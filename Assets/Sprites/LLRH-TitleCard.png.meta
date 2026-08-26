@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 11e9791d043769148a3411aef3e7e959
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3628639632149422203
+    second: LLRH-TitleCard_0
+  - first:
+      213: -3828516515140817868
+    second: LLRH-TitleCard_1
+  - first:
+      213: 7100955106614504104
+    second: LLRH-TitleCard_2
+  - first:
+      213: -5541288679774224754
+    second: LLRH-TitleCard_3
+  - first:
+      213: -5966120167364627982
+    second: LLRH-TitleCard_4
+  - first:
+      213: 6974868300255316458
+    second: LLRH-TitleCard_5
+  - first:
+      213: -5863678307345783150
+    second: LLRH-TitleCard_6
+  - first:
+      213: 3552332945086124895
+    second: LLRH-TitleCard_7
+  - first:
+      213: 6953328433038946958
+    second: LLRH-TitleCard_8
+  - first:
+      213: -5723575373187012574
+    second: LLRH-TitleCard_9
+  - first:
+      213: 7979339288502149199
+    second: LLRH-TitleCard_10
+  - first:
+      213: -670384845728437088
+    second: LLRH-TitleCard_11
+  - first:
+      213: 6545944358244674775
+    second: LLRH-TitleCard_12
+  - first:
+      213: -4531682325445326752
+    second: LLRH-TitleCard_13
+  - first:
+      213: 1740611490623377865
+    second: LLRH-TitleCard_14
+  - first:
+      213: 584091115574215395
+    second: LLRH-TitleCard_15
+  - first:
+      213: -4357765391089604626
+    second: LLRH-TitleCard_16
+  - first:
+      213: -3579621351060440264
+    second: LLRH-TitleCard_17
+  - first:
+      213: 1890329411930065443
+    second: LLRH-TitleCard_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LLRH-TitleCard_0
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 327
+        width: 169
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70ab2425848b5230800000000000000
+      internalID: 3628639632149422203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LLRH-TitleCard_1
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 330
+        width: 101
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ca05a83806edac0800000000000000
+      internalID: -3828516515140817868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LLRH-TitleCard_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 442
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aae0c70c09ab8260800000000000000
+      internalID: 7100955106614504104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LLRH-TitleCard_3
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 329
+        width: 77
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ef9240e436913b0800000000000000
+      internalID: -5541288679774224754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LLRH-TitleCard_4
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 327
+        width: 195
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1ffe05155143da0800000000000000
+      internalID: -5966120167364627982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LLRH-TitleCard_5
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 328
+        width: 120
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9c9dfb3c5bbc060800000000000000
+      internalID: 6974868300255316458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LLRH-TitleCard_6
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 328
+        width: 54
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296ad7585a700aea0800000000000000
+      internalID: -5863678307345783150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LLRH-TitleCard_7
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 328
+        width: 78
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5396c31efb6c4130800000000000000
+      internalID: 3552332945086124895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LLRH-TitleCard_8
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 328
+        width: 78
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82f8e99e5f2f7060800000000000000
+      internalID: 6953328433038946958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LLRH-TitleCard_9
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 47
+        width: 195
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228a30cd586c190b0800000000000000
+      internalID: -5723575373187012574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LLRH-TitleCard_10
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 49
+        width: 94
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f402d797ece4cbe60800000000000000
+      internalID: 7979339288502149199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LLRH-TitleCard_11
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 162
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac2d8fd88052b6f0800000000000000
+      internalID: -670384845728437088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LLRH-TitleCard_12
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 49
+        width: 277
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc65a046bdd7da50800000000000000
+      internalID: 6545944358244674775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LLRH-TitleCard_13
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 48
+        width: 120
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0684ae45fea3c11c0800000000000000
+      internalID: -4531682325445326752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LLRH-TitleCard_14
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 49
+        width: 80
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1d196bde4e72810800000000000000
+      internalID: 1740611490623377865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LLRH-TitleCard_15
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 48
+        width: 54
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2434466cb1b1800800000000000000
+      internalID: 584091115574215395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LLRH-TitleCard_16
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 49
+        width: 93
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7ec99177b1683c0800000000000000
+      internalID: -4357765391089604626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LLRH-TitleCard_17
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 49
+        width: 80
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b73abc851a25ec0800000000000000
+      internalID: -3579621351060440264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LLRH-TitleCard_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 49
+        width: 80
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a8092b59ccb3a10800000000000000
+      internalID: 1890329411930065443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LLRH-TitleCard_0: 3628639632149422203
+      LLRH-TitleCard_1: -3828516515140817868
+      LLRH-TitleCard_10: 7979339288502149199
+      LLRH-TitleCard_11: -670384845728437088
+      LLRH-TitleCard_12: 6545944358244674775
+      LLRH-TitleCard_13: -4531682325445326752
+      LLRH-TitleCard_14: 1740611490623377865
+      LLRH-TitleCard_15: 584091115574215395
+      LLRH-TitleCard_16: -4357765391089604626
+      LLRH-TitleCard_17: -3579621351060440264
+      LLRH-TitleCard_18: 1890329411930065443
+      LLRH-TitleCard_2: 7100955106614504104
+      LLRH-TitleCard_3: -5541288679774224754
+      LLRH-TitleCard_4: -5966120167364627982
+      LLRH-TitleCard_5: 6974868300255316458
+      LLRH-TitleCard_6: -5863678307345783150
+      LLRH-TitleCard_7: 3552332945086124895
+      LLRH-TitleCard_8: 6953328433038946958
+      LLRH-TitleCard_9: -5723575373187012574
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -212,60 +212,68 @@ PrefabInstance:
       objectReference: {fileID: 2000152532}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.size
-      value: 43
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: PlayerTexture.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: CompanionTexture.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'PlayerTexture.Array.data[0]'
       value: 
-      objectReference: {fileID: 2800000, guid: 520bc14536e37f44a8f5f213d88f5b1c, type: 3}
+      objectReference: {fileID: 2800000, guid: 5babcdc2900940042a333ac800484225, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'PlayerTexture.Array.data[1]'
       value: 
-      objectReference: {fileID: 2800000, guid: a2fe7b92fc112c54cab231432f6d651f, type: 3}
+      objectReference: {fileID: 2800000, guid: 71df6fc1137f7df4a8157e0ff427cbe2, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'PlayerTexture.Array.data[2]'
       value: 
-      objectReference: {fileID: 2800000, guid: c88e7940e823289409e2ab2812d0770f, type: 3}
+      objectReference: {fileID: 2800000, guid: 1fa34ba1737ae334aaf25d103340c3da, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'PlayerTexture.Array.data[3]'
       value: 
-      objectReference: {fileID: 2800000, guid: 8639b6d5557b84840b7dff050b24b5c9, type: 3}
+      objectReference: {fileID: 2800000, guid: aa685d8edc001aa40b71c70cfa7e9631, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'PlayerTexture.Array.data[4]'
       value: 
-      objectReference: {fileID: 2800000, guid: 8d055b923c7c4e64e89f9967153fedd0, type: 3}
+      objectReference: {fileID: 2800000, guid: bb898372697e41646a851e8cd0481736, type: 3}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: 'PlayerTexture.Array.data[5]'
+      value: 
+      objectReference: {fileID: 2800000, guid: 7512927a726b4814392694dce491c7be, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: BackgroundTexture.Array.size
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'CompanionTexture.Array.data[0]'
       value: 
-      objectReference: {fileID: 2800000, guid: 520bc14536e37f44a8f5f213d88f5b1c, type: 3}
+      objectReference: {fileID: 2800000, guid: 0541dbfa18f55cf4a85a51b4bf778db3, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'CompanionTexture.Array.data[1]'
       value: 
-      objectReference: {fileID: 2800000, guid: a2fe7b92fc112c54cab231432f6d651f, type: 3}
+      objectReference: {fileID: 2800000, guid: 71f47b667990c8b47b5cd8cfa814f646, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'CompanionTexture.Array.data[2]'
       value: 
-      objectReference: {fileID: 2800000, guid: c88e7940e823289409e2ab2812d0770f, type: 3}
+      objectReference: {fileID: 2800000, guid: a8264e968c99f2145aed195378311d2a, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'CompanionTexture.Array.data[3]'
       value: 
-      objectReference: {fileID: 2800000, guid: 8639b6d5557b84840b7dff050b24b5c9, type: 3}
+      objectReference: {fileID: 2800000, guid: c03402fc6bd76b04a98dcef94a7a0954, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'CompanionTexture.Array.data[4]'
       value: 
-      objectReference: {fileID: 2800000, guid: 8d055b923c7c4e64e89f9967153fedd0, type: 3}
+      objectReference: {fileID: 2800000, guid: b974b42dc50aa7f4c8ec0e6b2929682e, type: 3}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: 'CompanionTexture.Array.data[5]'
+      value: 
+      objectReference: {fileID: 2800000, guid: 4a05f732f36c15f41899e5a6255b77f6, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'BackgroundTexture.Array.data[0]'
       value: 
@@ -273,15 +281,23 @@ PrefabInstance:
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'BackgroundTexture.Array.data[1]'
       value: 
-      objectReference: {fileID: 2800000, guid: 82561dfa73f03714298516bd1b3a4a3e, type: 3}
+      objectReference: {fileID: 2800000, guid: 66443dc9f88b6d547973c3f33501db9f, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'BackgroundTexture.Array.data[2]'
       value: 
-      objectReference: {fileID: 2800000, guid: 73630830a67496642b8735fccf4acdd6, type: 3}
+      objectReference: {fileID: 2800000, guid: 9a48befffa6087d4b889a1b298bc067a, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'BackgroundTexture.Array.data[3]'
       value: 
-      objectReference: {fileID: 2800000, guid: e9f432ad8100f5247819c8240ba2797f, type: 3}
+      objectReference: {fileID: 2800000, guid: c5898f80931b2ff419b2f51c13920bf0, type: 3}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: 'BackgroundTexture.Array.data[4]'
+      value: 
+      objectReference: {fileID: 2800000, guid: e6e1739ad53f89e4d9934445d20d2ed6, type: 3}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: 'BackgroundTexture.Array.data[5]'
+      value: 
+      objectReference: {fileID: 2800000, guid: 6a1527ffd218bc5419d2c010a9dceacc, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[0].TextName
       value: Narratator
@@ -316,11 +332,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[8].TextName
-      value: The Huntsman
+      value: Red Riding Hood
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[9].TextName
-      value: Red Riding Hood
+      value: The Huntsman
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[0].Skippable
@@ -332,11 +348,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[10].TextName
-      value: The Huntsman
+      value: Narrarator
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[11].TextName
-      value: The Huntsman
+      value: ' The Huntsman'
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[12].TextName
@@ -344,23 +360,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[13].TextName
-      value: The Huntsman
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
-      propertyPath: segments.Array.data[14].TextName
-      value: The Huntsman
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
-      propertyPath: segments.Array.data[15].TextName
-      value: Robin Hood
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
-      propertyPath: segments.Array.data[16].TextName
       value: Red Riding Hood
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[14].TextName
+      value: Red Riding Hood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[15].TextName
+      value: The Huntsman
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[16].TextName
+      value: The Huntsman
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[17].TextName
-      value: Robin Hood
+      value: The Huntsman
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[18].TextName
@@ -368,7 +384,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[19].TextName
-      value: Robin Hood
+      value: The Huntsman
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[1].Skippable
@@ -380,19 +396,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[20].TextName
-      value: Narrarator
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
-      propertyPath: segments.Array.data[21].TextName
       value: Red Riding Hood
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[21].TextName
+      value: The Huntsman
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[22].TextName
-      value: Robin Hood
+      value: The Huntsman
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[23].TextName
-      value: Robin Hood
+      value: Narrartator
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[24].TextName
@@ -400,7 +416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[25].TextName
-      value: Robin Hood
+      value: The Huntsman
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[26].TextName
@@ -408,11 +424,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[27].TextName
-      value: Red Riding Hood
+      value: The Huntsman
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[28].TextName
-      value: Robin hood
+      value: Red Riding Hood
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[29].TextName
@@ -428,35 +444,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[30].TextName
-      value: Robin Hood
+      value: The Huntsman
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[31].TextName
-      value: Red Riding Hood
+      value: The Huntsman
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[32].TextName
-      value: Robin Hood
+      value: The Huntsman
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[33].TextName
-      value: Red Riding Hood
+      value: The Huntsman
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[34].TextName
-      value: Robin Hood
+      value: The Huntsman
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[35].TextName
-      value: Red Riding Hood
+      value: Robin Hood
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[36].TextName
-      value: Robin Hood
+      value: Red Riding Hood
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[37].TextName
-      value: Robin Hood
+      value: Red Riding Hood
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[38].TextName
@@ -464,7 +480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[39].TextName
-      value: Red Riding Hood
+      value: Robin Hood
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[3].Skippable
@@ -480,10 +496,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[41].TextName
-      value: Red Riding Hood
+      value: Robin Hood
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[42].TextName
+      value: Red Riding Hood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[43].TextName
+      value: Red Riding Hood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[44].TextName
+      value: Red Riding Hood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[45].TextName
+      value: Robin Hood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[46].TextName
+      value: Red Riding Hood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[47].TextName
+      value: Robin Hood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[48].TextName
+      value: Red Riding Hood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[49].TextName
       value: Robin Hood
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
@@ -524,7 +568,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[8].TextSpeed
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[9].Skippable
@@ -540,7 +584,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[10].TextSpeed
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[11].Skippable
@@ -556,7 +600,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[12].TextSpeed
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[13].Skippable
@@ -580,7 +624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[15].TextSpeed
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[16].Skippable
@@ -588,7 +632,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[16].TextSpeed
-      value: 25
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[17].Skippable
@@ -596,7 +640,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[17].TextSpeed
-      value: 25
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[18].Skippable
@@ -604,7 +648,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[18].TextSpeed
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[19].Skippable
@@ -624,7 +668,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[20].TextSpeed
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[21].Skippable
@@ -632,7 +676,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[21].TextSpeed
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[22].Skippable
@@ -640,7 +684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[22].TextSpeed
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[23].Skippable
@@ -724,7 +768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[32].TextSpeed
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[33].Skippable
@@ -732,7 +776,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[33].TextSpeed
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[34].Skippable
@@ -740,7 +784,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[34].TextSpeed
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[35].Skippable
@@ -748,7 +792,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[35].TextSpeed
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[36].Skippable
@@ -792,7 +836,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[40].TextSpeed
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[41].Skippable
@@ -800,7 +844,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[41].TextSpeed
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[42].Skippable
@@ -808,7 +852,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[42].TextSpeed
-      value: 25
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[43].Skippable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[43].TextSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[44].Skippable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[44].TextSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[45].Skippable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[45].TextSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[46].Skippable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[46].TextSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[47].Skippable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[47].TextSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[48].Skippable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[48].TextSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[49].Skippable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[49].TextSpeed
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[4].NovelState
@@ -828,19 +928,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[8].NovelState
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
-      propertyPath: segments.Array.data[9].NovelState
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
-      propertyPath: segments.Array.data[10].NovelState
+      propertyPath: segments.Array.data[9].NovelState
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[10].NovelState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[11].NovelState
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[12].NovelState
@@ -848,11 +948,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[13].NovelState
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[14].NovelState
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[15].NovelState
@@ -860,7 +960,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[16].NovelState
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[17].NovelState
@@ -876,11 +976,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[20].NovelState
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[21].NovelState
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[22].NovelState
@@ -888,11 +988,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[23].NovelState
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[24].NovelState
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[25].NovelState
@@ -904,11 +1004,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[27].NovelState
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[28].NovelState
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[29].NovelState
@@ -920,7 +1020,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[31].NovelState
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[32].NovelState
@@ -928,7 +1028,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[33].NovelState
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[34].NovelState
@@ -936,15 +1036,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[35].NovelState
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[36].NovelState
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[37].NovelState
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[38].NovelState
@@ -952,7 +1052,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[39].NovelState
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[40].NovelState
@@ -960,10 +1060,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[41].NovelState
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[42].NovelState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[43].NovelState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[44].NovelState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[45].NovelState
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[46].NovelState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[47].NovelState
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[48].NovelState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[49].NovelState
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
@@ -980,11 +1108,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[3].PortraitType
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[4].PortraitType
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[5].PortraitType
@@ -1012,22 +1140,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[10].PortraitType
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[11].PortraitType
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[12].PortraitType
-      value: 0
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[13].PortraitType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[14].PortraitType
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[15].PortraitType
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[16].PortraitType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[17].PortraitType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[18].PortraitType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[19].PortraitType
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
@@ -1036,23 +1184,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[20].PortraitType
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[21].PortraitType
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[22].PortraitType
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[23].PortraitType
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[24].PortraitType
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[25].PortraitType
@@ -1060,15 +1208,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[26].PortraitType
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
-      propertyPath: segments.Array.data[27].PortraitType
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[27].PortraitType
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[28].PortraitType
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[29].PortraitType
@@ -1080,7 +1228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[31].PortraitType
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[32].PortraitType
@@ -1088,7 +1236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[33].PortraitType
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[34].PortraitType
@@ -1096,11 +1244,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[35].PortraitType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[36].PortraitType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[37].PortraitType
@@ -1108,11 +1256,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[38].PortraitType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[39].PortraitType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[3].HasBackground
@@ -1120,15 +1268,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[40].PortraitType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[41].PortraitType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[42].PortraitType
-      value: 2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[43].PortraitType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[44].PortraitType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[45].PortraitType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[46].PortraitType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[47].PortraitType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[48].PortraitType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[49].PortraitType
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[4].HasBackground
@@ -1305,6 +1481,34 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[43].HasBackground
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[44].HasBackground
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[45].HasBackground
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[46].HasBackground
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[47].HasBackground
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[48].HasBackground
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[49].HasBackground
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[4].DialougeToType
       value: The question is... who was this huntsman? and what happend to the little
         girl?
@@ -1315,7 +1519,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[6].DialougeToType
-      value: No Problem. A scream like yours would have a whole town running!
+      value: '*Sigh, No Problem. A scream like yours would have a whole town running!'
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[7].DialougeToType
@@ -1324,164 +1528,188 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[8].DialougeToType
-      value: Well, your safe now...
-      objectReference: {fileID: 0}
-    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
-      propertyPath: segments.Array.data[9].DialougeToType
       value: ...Grandma...
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[9].DialougeToType
+      value: ...Lets get out of here and have some fresh air.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[10].DialougeToType
-      value: ...I'm... sorry for your loss kid.
+      value: The girl and the huntsman leave the blood covered cabin and step outside.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[11].DialougeToType
-      value: ...I don't think it would be safe for you to travel home alone. Would
-        you like me to accompany you?
+      value: How Are you feeling?
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[12].DialougeToType
-      value: Mama told me to not follow strangers.
+      value: Better...
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[13].DialougeToType
-      value: '*Sigh, Even though I saved your life, I understand your concern.'
+      value: That blasted wolf! Why would he go after an innocent grandma and child!
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[14].DialougeToType
-      value: You see, I am not just a travelling huntsman, or at least I was... Have
-        you ever heard of the name-
+      value: I should've listened to Mother and stayed on the path and none of this
+        would have happened.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[15].DialougeToType
-      value: Robin Hood?
+      value: Woah woah hey hey hey hey... you can't blame yourself for this.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[16].DialougeToType
-      value: no.
+      value: There are evil things lurking everywhere in this world; To whom prey
+        on the weak and vulnerable; such as the elderly or a child such as yourself.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[17].DialougeToType
-      value: oh. (Damn I'm Old, I shouldn't assume everyone knows my name, especially
-        in a secluded place like this, man I'm stupid).
+      value: You can't blame yourself for something that was out of your control.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[18].DialougeToType
-      value: Well... you DID save my life, and I know that other huntsmen around
-        here are very kind. I guess you can escort me Mr Robin.
+      value: ...okay...
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[19].DialougeToType
-      value: Just call me Robin Hood.
+      value: Well... you should get going, The sun is starting to set and it won't
+        be safe to stay here; I can assume you have parents to get back to, you mentioned
+        one earlier.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[20].DialougeToType
-      value: Red Riding Hood and Robin Hood leave the late Grandma's cottage and
-        begin travelling to the girl's home.
+      value: Will you escort me? please? I don't want to go alone.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[21].DialougeToType
-      value: ...
+      value: Well I was kinda on my way to...um... you shouldn't trust strangeerrss...
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[22].DialougeToType
-      value: ...
+      value: Okay.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[23].DialougeToType
-      value: Still looking quite down, slowing us down. Quite hurt about ol' granny
-        aern't ya.
+      value: The girl and the Huntsman begin their travel through the forrest back
+        to the the girl's home.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[24].DialougeToType
-      value: ...I should've done something.
+      value: So... who are you?
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[25].DialougeToType
-      value: huh?
+      value: A mere travelling huntsman.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[26].DialougeToType
-      value: "\"What big ears you have!\u201D\n\"What big eyes you have!\u201D\n\"What
-        big hands you have!\u201D\nThat wolf stalked me, decieved me!"
+      value: 'Oh come one! I know there HAS to be more to you. '
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[27].DialougeToType
-      value: 'I should''ve listened to mama, stayed on the path.
-
-        I shouldn''t
-        have talked to that wolf, for I had not seen how wicked he was.
-
-        It''s
-        unfair! I wish I could have done anything to save granny!'
+      value: Why the sudden interest?
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[28].DialougeToType
-      value: Oh god... I'm sorry for bringing it back up! I didn't mean to be so
-        blunt!
+      value: You come out of no where and some how sneak up on a wolf (possibly a
+        werewolf) and easily take it out without a fight!
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[29].DialougeToType
-      value: Ah! I'm sorry, i'm being loud, papa told me to be strong and to not
-        cry in public.
+      value: Plus you said not to trust strangers, so if I  know you better, I can
+        trust you more.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[30].DialougeToType
-      value: No No! it's natural to feel this way, especially after seeing... what
-        happened to your grandma...
+      value: perceptive  aern't you.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[31].DialougeToType
-      value: ...
+      value: (Well, I am supposed to keep a low profile right now. ..Oh it's just
+        a child whose been through a lot, might as well).
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[32].DialougeToType
-      value: ...You wish you could've done something?
+      value: 'Alright, ya got me. I am no regular huntsman. '
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[33].DialougeToType
-      value: ...yes...
+      value: I have helped many like you in different ways, gathering an infamous
+        reputation among many as a heroic outlaw.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[34].DialougeToType
-      value: Well, you can't change what happened, but how about I teach you something
-        so it doesn't happen again to anyone else.
+      value: The man who steals from the rich and gives to the poor. Have you heard
+        of the legendary-
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[35].DialougeToType
-      value: Really?
+      value: -Robin Hood
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[36].DialougeToType
-      value: Remember when I said I am no regular huntsman, well I am actually a
-        well known archer. THE archer everyone thinks of when you think of archery.
+      value: no.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[37].DialougeToType
-      value: 'I''ve used my skills as an outlaw to fight injustice against unfair
-        circumstances, inspiring other merry men to follow me; to "Steal from the
-        rich and give to the poor"! '
+      value: Cool story though.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[38].DialougeToType
-      value: And you, my tiny friend, are in need of help and insparation! So, how
-        about it, wanna learn a thing or two from me?
+      value: (You prideful narcissist. How could you assume everyone knows your name!
+        you're a criminal at the end of the day, the rich want your name dragged
+        through the dirt which is why others won't know it. Dumbass).
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[39].DialougeToType
-      value: WOW!... so you're a criminal!
+      value: oh.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[40].DialougeToType
-      value: YEAH! Wait NO NO! Well Kinda!?
+      value: Well for extra context just for you, I run a crew of merry men. One
+        of whom I was travelling with.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[41].DialougeToType
-      value: Hehehe! you're quite noble despite that. I wanna learn archery!
+      value: contrary to what you see, I am actually really ill right now, I was
+        heading to a priory nearby with my buddy Little John unitil I heard your
+        voice and despite his plea, I rushed towards you're scream and just decided
+        to go on ahead without me. Beats the whole reason he came with me but whatever.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[42].DialougeToType
-      value: '*Sigh.. Wome- I mean Children.'
+      value: Wow, you're quite strong, and brave.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[43].DialougeToType
+      value: I wish I was like you. I could've stopped that wolf and saved grandma.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[44].DialougeToType
+      value: Without being a criminal of course.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[45].DialougeToType
+      value: How rude of you to brand me a...(Oh wait I am a criminal)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[46].DialougeToType
+      value: He he!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[47].DialougeToType
+      value: '*sigh. Well, about becoming like me, how about I teach you how to use
+        a bow, I am quite the archer myself.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[48].DialougeToType
+      value: That sounds fun!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[49].DialougeToType
+      value: Alright! I think I have a range set up somewhere around here.
       objectReference: {fileID: 0}
     - target: {fileID: 5513434127003781097, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: LevelLoaderScript

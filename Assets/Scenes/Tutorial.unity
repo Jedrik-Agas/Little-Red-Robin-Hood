@@ -6341,40 +6341,72 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: PlayerTexture.Array.size
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: CompanionTexture.Array.size
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'PlayerTexture.Array.data[0]'
       value: 
-      objectReference: {fileID: 2800000, guid: 1e370d333628a394582b2234a727a569, type: 3}
+      objectReference: {fileID: 2800000, guid: 5babcdc2900940042a333ac800484225, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'PlayerTexture.Array.data[1]'
       value: 
-      objectReference: {fileID: 2800000, guid: 68f1c00f496b2124d89366322b2b3193, type: 3}
+      objectReference: {fileID: 2800000, guid: 71df6fc1137f7df4a8157e0ff427cbe2, type: 3}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: 'PlayerTexture.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2800000, guid: 1fa34ba1737ae334aaf25d103340c3da, type: 3}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: 'PlayerTexture.Array.data[3]'
+      value: 
+      objectReference: {fileID: 2800000, guid: aa685d8edc001aa40b71c70cfa7e9631, type: 3}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: 'PlayerTexture.Array.data[4]'
+      value: 
+      objectReference: {fileID: 2800000, guid: bb898372697e41646a851e8cd0481736, type: 3}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: 'PlayerTexture.Array.data[5]'
+      value: 
+      objectReference: {fileID: 2800000, guid: 7512927a726b4814392694dce491c7be, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: BackgroundTexture.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'CompanionTexture.Array.data[0]'
       value: 
-      objectReference: {fileID: 2800000, guid: bb7ae748966c61e4f851ece622b97f4d, type: 3}
+      objectReference: {fileID: 2800000, guid: 0541dbfa18f55cf4a85a51b4bf778db3, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'CompanionTexture.Array.data[1]'
       value: 
-      objectReference: {fileID: 2800000, guid: ee14dbe04b550914b97501c08253cad1, type: 3}
+      objectReference: {fileID: 2800000, guid: 71f47b667990c8b47b5cd8cfa814f646, type: 3}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: 'CompanionTexture.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2800000, guid: a8264e968c99f2145aed195378311d2a, type: 3}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: 'CompanionTexture.Array.data[3]'
+      value: 
+      objectReference: {fileID: 2800000, guid: c03402fc6bd76b04a98dcef94a7a0954, type: 3}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: 'CompanionTexture.Array.data[4]'
+      value: 
+      objectReference: {fileID: 2800000, guid: b974b42dc50aa7f4c8ec0e6b2929682e, type: 3}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: 'CompanionTexture.Array.data[5]'
+      value: 
+      objectReference: {fileID: 2800000, guid: 4a05f732f36c15f41899e5a6255b77f6, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'BackgroundTexture.Array.data[0]'
       value: 
-      objectReference: {fileID: 2800000, guid: 82561dfa73f03714298516bd1b3a4a3e, type: 3}
+      objectReference: {fileID: 2800000, guid: 7cb1dbcfee301f540a3113c1e0beadd7, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: 'BackgroundTexture.Array.data[1]'
       value: 
-      objectReference: {fileID: 2800000, guid: f9824c83394768a4797166737ab087eb, type: 3}
+      objectReference: {fileID: 2800000, guid: 82561dfa73f03714298516bd1b3a4a3e, type: 3}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[0].TextName
       value: Robin Hood
@@ -6517,15 +6549,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[8].NovelState
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[0].PortraitType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[1].PortraitType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[2].PortraitType
@@ -6533,6 +6565,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[3].PortraitType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[6].PortraitType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[7].PortraitType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
+      propertyPath: segments.Array.data[8].PortraitType
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
