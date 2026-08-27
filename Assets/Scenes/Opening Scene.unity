@@ -1605,7 +1605,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[26].DialougeToType
-      value: 'Oh come one! I know there HAS to be more to you. '
+      value: 'Oh come on! I know there HAS to be more to you. '
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[27].DialougeToType
@@ -1623,7 +1623,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[30].DialougeToType
-      value: perceptive  aern't you.
+      value: perceptive aren't you.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[31].DialougeToType
@@ -1673,10 +1673,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[41].DialougeToType
-      value: contrary to what you see, I am actually really ill right now, I was
-        heading to a priory nearby with my buddy Little John unitil I heard your
-        voice and despite his plea, I rushed towards you're scream and just decided
-        to go on ahead without me. Beats the whole reason he came with me but whatever.
+      value: contrary to what you see, I am actually really ill right now. I was
+        heading to a priory nearby to be blood let with my buddy Little John unitil
+        I heard your voice. Despite his plea, I rushed towards you're scream and
+        just decided to go on ahead without me. Beats the whole reason he came with
+        me but whatever.
       objectReference: {fileID: 0}
     - target: {fileID: 3391369841202962043, guid: 4267377e34b81d045a2a53a1726a6f6b, type: 3}
       propertyPath: segments.Array.data[42].DialougeToType

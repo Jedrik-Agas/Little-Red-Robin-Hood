@@ -19,7 +19,7 @@ public class DialougeSystemScript : MonoBehaviour
 
         public bool HasBackground;
 
-        [Range(0, 5)]
+        [Range(0, 6)]
         public int NovelState;
 
         [Range(1f, 25f)]
@@ -128,22 +128,24 @@ public class DialougeSystemScript : MonoBehaviour
                 case 3: //Character 1 visible, Character 2 transparent
                 Character1.texture = PlayerTexture[segment.PortraitType];
                     Character1.color = new Color(255f, 255f, 255f, 255f);
-                    Character2.color = new Color(255f, 255f, 255f, 0.5f);
+                    Character2.color = new Color(255f, 255f, 255f, 0.3f);
                     break;
                 case 4: //Character 2 visible, Character 1 transparent
                 Character2.texture = CompanionTexture[segment.PortraitType];
-                    Character1.color = new Color(255f, 255f, 255f, 0.5f);
+                    Character1.color = new Color(255f, 255f, 255f, 0.3f);
                     Character2.color = new Color(255f, 255f, 255f, 255f);
                     break;
                 case 5: //Both Characters Visible
-                    Background.texture = BackgroundTexture[segment.PortraitType];
+                    //Background.texture = BackgroundTexture[segment.PortraitType];
+                    Character1.texture = PlayerTexture[segment.PortraitType];
+                    Character2.texture = CompanionTexture[segment.PortraitType];
                     Character1.color = new Color(255f, 255f, 255f, 255f);
                     Character2.color = new Color(255f, 255f, 255f, 255f);
                     break;
                 case 6: //Both Characters transparent
                     Background.texture = BackgroundTexture[segment.PortraitType];
-                    Character1.color = new Color(255f, 255f, 255f, 0.5f);
-                    Character2.color = new Color(255f, 255f, 255f, 0.5f);
+                    Character1.color = new Color(255f, 255f, 255f, 0.3f);
+                    Character2.color = new Color(255f, 255f, 255f, 0.3f);
                     break;
                 default: //Both characters Invisible
                     Background.texture = BackgroundTexture[segment.PortraitType];
