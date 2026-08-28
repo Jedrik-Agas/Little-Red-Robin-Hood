@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
@@ -16,6 +17,7 @@ public class PlayerControlsScript : MonoBehaviour
     [SerializeField] private Slider Slider;
     [SerializeField] private CanvasGroup CanvasGroup;
     [SerializeField] private GameObject MainSprite;
+    [SerializeField] private AudioSource BowChargeSound;
 
     private Vector2 MoveDirection;
     private Vector2 MouseDirection;
@@ -39,6 +41,7 @@ public class PlayerControlsScript : MonoBehaviour
                 {
                     BowCharge = BowCharge + Time.deltaTime;
                     Slider.value = BowCharge;
+                    BowChargeSound.Play();
                 }
                 if (BowCharge >= MaxBowCharge)
                 {
@@ -70,7 +73,7 @@ public class PlayerControlsScript : MonoBehaviour
 
     public void OnMove(InputValue Value)
     {
-            MoveDirection = Value.Get<Vector2>().normalized;
+        MoveDirection = Value.Get<Vector2>().normalized;
     }
     private void FixedUpdate()
     {

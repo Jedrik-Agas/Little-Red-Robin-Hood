@@ -55,6 +55,7 @@ MonoBehaviour:
   LayerMask:
     serializedVersion: 2
     m_Bits: 1
+  DetectionSound: {fileID: 0}
 --- !u!33 &6260681813670516696
 MeshFilter:
   m_ObjectHideFlags: 0

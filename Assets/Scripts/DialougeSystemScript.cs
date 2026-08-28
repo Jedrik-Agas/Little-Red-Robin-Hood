@@ -40,6 +40,7 @@ public class DialougeSystemScript : MonoBehaviour
     [SerializeField] private TMP_Text DialougeText;
     [SerializeField] private Button NextButton;
     [SerializeField]private CanvasGroup CanvasGroup;
+    [SerializeField] private AudioSource DialougeAudioSource;
 
     public Texture[] PlayerTexture = new Texture[0];
     public Texture[] CompanionTexture = new Texture[0];
@@ -175,7 +176,7 @@ public class DialougeSystemScript : MonoBehaviour
                 AddChunk = segment.DialougeToType.Substring(i, 2);
                 i++;
             }
-
+            DialougeAudioSource.Play();
             DialougeText.text += AddChunk;
             yield return new WaitForSeconds(delay);
         }
